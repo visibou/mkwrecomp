@@ -117,7 +117,8 @@ def main():
     a = ap.parse_args()
     out = os.path.abspath(a.out)
     try:
-        say('MKW Recompiler (Switch2Recomp). No game, keys or firmware are included: it builds from your own dump.\n')
+        say('SwitchRECOMP (c) 2026 MZ Labs. GNU AGPL v3. MKW Recomp is built on Switch2Recomp, based on SwitchRecomp by MZ Labs.')
+        say('MKW Recomp. No game files, code or keys are included: it builds from the decrypted files you provide.\n')
         say('1. Your dump')
         dump = find_dump(a.dump)
         pid, bid = check_version(dump)
