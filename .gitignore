@@ -1,0 +1,5 @@
+# What the builder makes from your dump stays on your PC: never commit it
+game/
+builder_gui.json
+__pycache__/
+*.pyc
